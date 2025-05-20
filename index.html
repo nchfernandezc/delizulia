@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>DELIZULIA - Productos Lácteos de Calidad</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Delizulia, productos lácteos, quesos venezolanos, leche, mantequilla" name="keywords">
+    <meta content="Delizulia, empresa líder en producción de quesos y productos lácteos en Venezuela desde 1914" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .img-queso {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .img-queso:hover {
+            transform: scale(1.05);
+        }
+        .product-section {
+            background-color: #f9f9f9;
+            padding: 50px 0;
+        }
+        .cta-button {
+            background-color: #02458d;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #03356e;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid p-0 nav-bar">
+        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-0">
+            <a href="index.html" class="navbar-brand px-lg-4 m-0 py-lg-2">
+                <img src="img/logo01.png" alt="Logo de Delizulia" style="width: 150px;">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto p-4">
+                    <a href="#inicio" class="nav-item nav-link active">Inicio</a>
+                    <a href="#acerca" class="nav-item nav-link">Acerca de</a>
+                    <a href="#productos" class="nav-item nav-link">Productos</a>
+                    <a href="#valores" class="nav-item nav-link">Valores</a>
+                    <a href="#contacto" class="nav-item nav-link">Contacto</a>
+                    <a href="#trabaja" class="nav-item nav-link">Trabaja con Nosotros</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid p-0 mb-5" id="inicio">
+        <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
+            <div class="container-fluid p-0 mb-5">
+                <div class="position-relative overflow-hidden" style="height: 800px;">
+                    <img class="w-100 h-100" src="img/inicio1.jpg" style="object-fit: cover; filter: blur(3px);">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100">
+                        <h1 class="display-1 text-white m-0 text-uppercase">GRUPO DELIZULIA</h1>
+                        <h2 class="text-white m-0 text-uppercase">COMPROMETIDOS CON EL PAÍS Y CON LAS PERSONAS</h2>
+                        <a href="#productos" class="btn btn-primary btn-lg mt-4 cta-button text-uppercase">NUESTROS PRODUCTOS</a>
+                    </div>
+                </div>
+            </div>          
+        </div>
+    </div>
+
+    <div class="container-fluid py-5" id="acerca" style="background-color: #FFFBF2;">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase mb-3" style="letter-spacing: 3px; font-weight: 700;">ACERCA DE NOSOTROS</h4>
+                <div class="divider mb-4 mx-auto" style="width: 80px; height: 3px; background: #02458d;"></div>
+                <p class="text-center lead mx-auto mb-5" style="max-width: 800px; font-size: 1.2rem; color: #4a6fa5;">Somos un grupo en el sector agropecuario y agroindustrial, en especial en el sector lácteo y de alimentos, comprometidos con el país y con las personas, con tradición desde el año 1914.</p>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-lg-4 mb-4 d-flex">
+                    <div class="card w-100 border-0 h-100" style="border-radius: 12px; background: white; box-shadow: 0 5px 15px rgba(2, 69, 141, 0.08);">
+                        <div class="card-header bg-primary-gradient text-white py-4" style="border-radius: 12px 12px 0 0;">
+                            <div class="icon-box bg-white text-primary rounded-circle mx-auto" style="width: 70px; height: 70px; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                                <i class="fas fa-history fa-2x"></i>
+                            </div>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h3 class="mb-4 text-center font-weight-bold" style="color:#02458d;">NUESTRA HISTORIA</h3>
+                            <div class="flex-grow-1">
+                                <p class="text-center" style="color: #4a6fa5; line-height: 1.7;">Fundada en 1914, Delizulia nació de la visión de empresarios con profunda tradición familiar. Durante más de un siglo hemos mantenido un fuerte compromiso con la calidad, perfeccionando técnicas artesanales generación tras generación, combinando lo mejor de la tradición con innovación tecnológica.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4 d-flex">
+                    <div class="card w-100 border-0 h-100" style="border-radius: 12px; background: white; box-shadow: 0 5px 15px rgba(2, 69, 141, 0.08);">
+                        <div class="card-header bg-primary-gradient text-white py-4" style="border-radius: 12px 12px 0 0;">
+                            <div class="icon-box bg-white text-primary rounded-circle mx-auto" style="width: 70px; height: 70px; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                                <i class="fas fa-bullseye fa-2x"></i>
+                            </div>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h3 class="mb-4 text-center font-weight-bold" style="color:#02458d;">MISIÓN</h3>
+                            <div class="flex-grow-1 d-flex align-items-center">
+                                <div>
+                                    <p class="text-center mb-0" style="color: #4a6fa5; line-height: 1.7; font-size: 1.05rem;">Producir y comercializar productos lácteos de la más alta calidad, manteniendo nuestras raíces tradicionales mientras innovamos para satisfacer las necesidades del consumidor moderno, contribuyendo al desarrollo del sector agroindustrial venezolano.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4 d-flex">
+                    <div class="card w-100 border-0 h-100" style="border-radius: 12px; background: white; box-shadow: 0 5px 15px rgba(2, 69, 141, 0.08);">
+                        <div class="card-header bg-primary-gradient text-white py-4" style="border-radius: 12px 12px 0 0;">
+                            <div class="icon-box bg-white text-primary rounded-circle mx-auto" style="width: 70px; height: 70px; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                                <i class="fas fa-eye fa-2x"></i>
+                            </div>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h3 class="mb-4 text-center font-weight-bold" style="color:#02458d;">VISIÓN</h3>
+                            <div class="flex-grow-1 d-flex align-items-center">
+                                <div>
+                                    <p class="text-center mb-0" style="color: #4a6fa5; line-height: 1.7; font-size: 1.05rem;">Ser la mejor empresa venezolana en la fabricación y comercialización de productos de consumo masivo, evaluando continuamente oportunidades de negocio para ofrecer soluciones integrales a clientes y consumidores.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5 pt-3">
+                <div class="col-12 text-center mb-5">
+                    <h3 class="text-primary font-weight-bold mb-3">PILARES FUNDAMENTALES</h3>
+                    <div class="divider mb-4 mx-auto" style="width: 80px; height: 3px; background: #02458d;"></div>
+                    <p class="text-blue mx-auto" style="max-width: 700px; color: #4a6fa5;">Los valores que nos han guiado por más de un siglo y nos seguirán diferenciando en el futuro</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                    <div class="card w-100 border-0 p-4 text-center h-100 hover-transform" style="border-radius: 12px; background: white; box-shadow: 0 5px 15px rgba(2, 69, 141, 0.08);">
+                        <div class="icon-box bg-primary-gradient text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px; display: flex; align-items: center; justify-content: center; transition: all 0.4s;">
+                            <i class="fas fa-medal fa-2x"></i>
+                        </div>
+                        <h5 class="text-primary font-weight-bold mb-3">CALIDAD</h5>
+                        <p class="text-blue mb-0" style="line-height: 1.6; color: #4a6fa5;">Excelencia en cada producto que elaboramos, cumpliendo con los más altos estándares internacionales.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                    <div class="card w-100 border-0 p-4 text-center h-100 hover-transform" style="border-radius: 12px; background: white; box-shadow: 0 5px 15px rgba(2, 69, 141, 0.08);">
+                        <div class="icon-box bg-primary-gradient text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px; display: flex; align-items: center; justify-content: center; transition: all 0.4s;">
+                            <i class="fas fa-heart fa-2x"></i>
+                        </div>
+                        <h5 class="text-primary font-weight-bold mb-3">TRADICIÓN</h5>
+                        <p class="text-blue mb-0" style="line-height: 1.6; color: #4a6fa5;">Más de un siglo de experiencia manteniendo las técnicas artesanales que nos hacen únicos.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                    <div class="card w-100 border-0 p-4 text-center h-100 hover-transform" style="border-radius: 12px; background: white; box-shadow: 0 5px 15px rgba(2, 69, 141, 0.08);">
+                        <div class="icon-box bg-primary-gradient text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px; display: flex; align-items: center; justify-content: center; transition: all 0.4s;">
+                            <i class="fas fa-lightbulb fa-2x"></i>
+                        </div>
+                        <h5 class="text-primary font-weight-bold mb-3">INNOVACIÓN</h5>
+                        <p class="text-blue mb-0" style="line-height: 1.6; color: #4a6fa5;">Tecnología de vanguardia al servicio de la calidad y la eficiencia productiva.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 d-flex">
+                    <div class="card w-100 border-0 p-4 text-center h-100 hover-transform" style="border-radius: 12px; background: white; box-shadow: 0 5px 15px rgba(2, 69, 141, 0.08);">
+                        <div class="icon-box bg-primary-gradient text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px; display: flex; align-items: center; justify-content: center; transition: all 0.4s;">
+                            <i class="fas fa-users fa-2x"></i>
+                        </div>
+                        <h5 class="text-primary font-weight-bold mb-3">EQUIPO</h5>
+                        <p class="text-blue mb-0" style="line-height: 1.6; color: #4a6fa5;">Profesionales comprometidos que hacen posible nuestra excelencia día a día.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .bg-primary-gradient {
+            background: linear-gradient(135deg, #02458d, #0275d8);
+        }
+        .hover-transform {
+            transition: all 0.3s ease;
+        }
+        .hover-transform:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(2, 69, 141, 0.15) !important;
+        }
+        .hover-transform:hover .icon-box {
+            transform: scale(1.1);
+            box-shadow: 0 10px 25px rgba(2, 69, 141, 0.3);
+        }
+        .text-blue {
+            color: #4a6fa5;
+        }
+    </style>
+
+    <div class="container-fluid product-section py-5" id="productos">
+        <div class="container">
+            <div class="section-title text-center">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Los mejores quesos</h4>
+                <h1 class="display-4 mb-5">Al mejor precio</h1>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="text-center mb-5" style="color: #02458d;">Calidad</h2>
+                    <div class="row text-center">
+                        <div class="col-6 col-md-4 mb-5">
+                            <div class="product-circle mx-auto">
+                                <img class="img-fluid rounded-circle" src="img/palmitae.jpg" alt="Queso Palmita">
+                            </div>
+                            <h5 class="mt-3">Palmita</h5>
+                        </div>
+                        <div class="col-6 col-md-4 mb-5">
+                            <div class="product-circle mx-auto">
+                                <img class="img-fluid rounded-circle" src="img/ppopular.png" alt="Queso Popular Premium">
+                            </div>
+                            <h5 class="mt-3">Popular Premium</h5>
+                        </div>
+                        <div class="col-6 col-md-4 mb-5">
+                            <div class="product-circle mx-auto">
+                                <img class="img-fluid rounded-circle" src="img/almitamc.jpg" alt="Madurado cuadrado/redondo">
+                            </div>
+                            <h5 class="mt-3">Madurado</h5>
+                        </div>
+                        <div class="col-6 col-md-4 mb-5">
+                            <div class="product-circle mx-auto">
+                                <img class="img-fluid rounded-circle" src="img/mano.jpg" alt="Queso de Mano">
+                            </div>
+                            <h5 class="mt-3">Queso de Mano</h5>
+                        </div>
+                        <div class="col-6 col-md-4 mb-5">
+                            <div class="product-circle mx-auto">
+                                <img class="img-fluid rounded-circle" src="img/ricotta.jpg" alt="Ricotta">
+                            </div>
+                            <h5 class="mt-3">Ricotta</h5>
+                        </div>
+                        <div class="col-6 col-md-4 mb-5">
+                            <div class="product-circle mx-auto">
+                                <img class="img-fluid rounded-circle" src="img/anio.jpg" alt="Queso de año">
+                            </div>
+                            <h5 class="mt-3">Queso de año</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <h2 class="text-center mb-5" style="color: #02458d;">Asegurada</h2>
+                    <div class="row text-center">
+                        <div class="col-6 col-md-4 mb-5">
+                            <div class="product-circle mx-auto">
+                                <img class="img-fluid rounded-circle" src="img/mozza.png" alt="Mozzarela">
+                            </div>
+                            <h5 class="mt-3">Mozzarela</h5>
+                        </div>
+                        <div class="col-6 col-md-4 mb-5">
+                            <div class="product-circle mx-auto">
+                                <img class="img-fluid rounded-circle" src="img/suave.jpg" alt="Pasteurizado suave especial">
+                            </div>
+                            <h5 class="mt-3">Pasteurizado</h5>
+                        </div>
+                        <div class="col-6 col-md-4 mb-5">
+                            <div class="product-circle mx-auto">
+                                <img class="img-fluid rounded-circle" src="img/amarillo.jpg" alt="Queso Amarillo">
+                            </div>
+                            <h5 class="mt-3">Amarillo</h5>
+                        </div>
+                        <div class="col-6 col-md-4 mb-5">
+                            <div class="product-circle mx-auto">
+                                <img class="img-fluid rounded-circle" src="img/ligth.jpg" alt="Queso light">
+                            </div>
+                            <h5 class="mt-3">Queso light</h5>
+                        </div>
+                        <div class="col-6 col-md-4 mb-5">
+                            <div class="product-circle mx-auto">
+                                <img class="img-fluid rounded-circle" src="img/mantequilla.jpg" alt="Mantequilla">
+                            </div>
+                            <h5 class="mt-3">Mantequilla</h5>
+                        </div>
+                        <div class="col-6 col-md-4 mb-5">
+                            <div class="product-circle mx-auto">
+                                <img class="img-fluid rounded-circle" src="img/bufala.jpg" alt="Queso de Bufala">
+                            </div>
+                            <h5 class="mt-3">Queso de Bufala</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-3">
+                <a href="#contacto" class="btn btn-primary btn-lg cta-button">Contáctanos para más información</a>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .product-circle {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid #02458d;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .product-circle:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            border-color: #ff6b00;
+        }
+        
+        .product-circle img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        @media (max-width: 768px) {
+            .product-circle {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+
+    <div class="container-fluid values-section py-5" id="valores">
+        <div class="container">
+            <div class="section-title text-center mb-5 pb-3">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Nuestros Valores</h4>
+                <h1 class="display-4 mb-4" style="color: #02458d;">Principios que nos definen</h1>
+                <div class="divider mx-auto"></div>
+            </div>
+            
+            <div class="row gy-5"> 
+                <div class="col-md-6 col-lg-4">
+                    <div class="value-card mb-4"> 
+                        <div class="value-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Calidad</h3>
+                        <p>Nos comprometemos con la excelencia en cada uno de nuestros productos, manteniendo los más altos estándares de producción.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="value-card mb-4">
+                        <div class="value-icon">
+                            <i class="fas fa-history"></i>
+                        </div>
+                        <h3>Tradición</h3>
+                        <p>Preservamos las técnicas artesanales heredadas por generaciones, combinándolas con tecnología moderna.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="value-card mb-4">
+                        <div class="value-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Innovación</h3>
+                        <p>Buscamos constantemente mejorar nuestros procesos y desarrollar nuevos productos que satisfagan las necesidades del mercado.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="value-card mb-4">
+                        <div class="value-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Trabajo en Equipo</h3>
+                        <p>Valoramos la colaboración y el respeto mutuo entre todos los miembros de nuestra organización.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="value-card mb-4">
+                        <div class="value-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Sostenibilidad</h3>
+                        <p>Nos preocupamos por el medio ambiente y trabajamos para minimizar nuestro impacto ecológico.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="value-card mb-4">
+                        <div class="value-icon">
+                            <i class="fas fa-hand-holding-heart"></i>
+                        </div>
+                        <h3>Responsabilidad Social</h3>
+                        <p>Contribuimos activamente al desarrollo de las comunidades donde operamos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .values-section {
+            background-color: #f8f9fa;
+            position: relative;
+        }
+        
+        .divider {
+            width: 80px;
+            height: 3px;
+            background: #ff6b00;
+            margin-top: 20px;
+        }
+        
+        .value-card {
+            background: white;
+            border-radius: 15px;
+            padding: 35px 30px;
+            transition: all 0.4s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            margin-bottom: 30px;
+            border: 1px solid rgba(0,0,0,0.05);
+            height: calc(100% - 30px);
+        }
+        
+        .value-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .value-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background: #ff6b00;
+            transition: all 0.3s ease;
+            opacity: 0;
+        }
+        
+        .value-card:hover::after {
+            opacity: 1;
+            width: 100px;
+        }
+        
+        .value-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            color: #02458d;
+            border-radius: 50%;
+            font-size: 30px;
+            transition: all 0.3s ease;
+            border: 2px solid #02458d;
+            box-shadow: 0 5px 15px rgba(2, 69, 141, 0.1);
+        }
+        
+        .value-card:hover .value-icon {
+            transform: scale(1.1);
+            background: #02458d;
+            color: white;
+            border-color: #02458d;
+        }
+        
+        .value-card h3 {
+            color: #02458d;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .value-card p {
+            color: #555;
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+        
+        @media (max-width: 768px) {
+            .value-card {
+                padding: 30px 20px;
+                margin-bottom: 25px; 
+            }
+            
+            .value-icon {
+                width: 70px;
+                height: 70px;
+                font-size: 25px;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="img/señoras.png" alt="Procesos automatizados" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6 py-5 py-lg-0">
+                    <h2 class="mb-4" style="color: #02458d;">Tecnología y Calidad</h2>
+                    <p>Combinamos tecnología de última generación con procesos automatizados que cumplen con los más estrictos controles sanitarios ISO, supervisados por nuestro equipo de profesionales altamente cualificados.</p>
+                    <p>Nuestras instalaciones cuentan con equipos de vanguardia que nos permiten garantizar la consistencia y seguridad de todos nuestros productos, manteniendo al mismo tiempo el sabor artesanal que nos caracteriza.</p>
+                    <a href="#contacto" class="btn btn-primary cta-button">Conoce más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light py-5" id="trabaja">
+        <div class="container">
+            <div class="section-title text-center">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Únete a nuestro equipo</h4>
+                <h1 class="display-4 mb-5">¿Quieres trabajar con nosotros?</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="mb-5">En Delizulia valoramos el talento y la pasión por el trabajo bien hecho. Si deseas formar parte de nuestro equipo, envíanos tu currículum vitae y te contactaremos cuando tengamos vacantes disponibles.</p>
+                    <a href="mailto:rrhh@delizulia.com?subject=Postulación de Trabajo" class="btn btn-primary btn-lg cta-button">Enviar CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5" id="contacto">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Contáctanos</h4>
+                <h1 class="mb-4">Estamos para servirte</h1>
+            </div>
+            <div class="row px-3 pb-4">
+                <div class="col-md-3 col-6 text-center mb-4">
+                    <i class="fa fa-2x fa-map-marker-alt mb-3 text-primary"></i>
+                    <h5 class="font-weight-bold">Dirección</h5>
+                    <p>Calle 66 entre Av.24 y 25, sector Santa Maria, Maracaibo, Venezuela</p>
+                </div>
+                <div class="col-md-3 col-6 text-center mb-4">
+                    <i class="fa fa-2x fa-phone-alt mb-3 text-primary"></i>
+                    <h5 class="font-weight-bold">Teléfono</h5>
+                    <p>+58 412-0000000</p>
+                </div>
+                <div class="col-md-3 col-6 text-center mb-4">
+                    <i class="fab fa-2x fa-whatsapp mb-3 text-primary"></i>
+                    <h5 class="font-weight-bold">WhatsApp</h5>
+                    <p>+58 412-0000000</p>
+                    <small>Horario: Lunes a Viernes 8:00am - 5:00pm</small>
+                </div>
+                <div class="col-md-3 col-6 text-center mb-4">
+                    <i class="far fa-2x fa-envelope mb-3 text-primary"></i>
+                    <h5 class="font-weight-bold">Correo</h5>
+                    <p>gerencia@delizulia.com</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 pb-5">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.234258840208!2d-71.6353387!3d10.6640599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8998e3c5a08a3b%3A0x1d1c1b1b1b1b1b1b!2sDelizulia!5e0!3m2!1ses!2sve!4v1620000000000!5m2!1ses!2sve" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md-6 pb-5">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="form-group">
+                                <input type="text" class="form-control bg-transparent p-4" id="name" placeholder="Nombre" required="required" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control bg-transparent p-4" id="email" placeholder="Correo" required="required" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control bg-transparent p-4" id="subject" placeholder="Asunto" required="required" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control bg-transparent py-3 px-4" rows="5" id="message" placeholder="Mensaje" required="required"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary font-weight-bold py-3 px-5 cta-button" type="submit">Enviar Mensaje</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top" id="footer">
+        <div class="row mx-0 pt-5 mt-4">
+            <div class="col-lg-3 col-md-6 mb-5 pl-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Delizulia</h4>
+                <p>Tradición láctea venezolana desde 1914. Productos de calidad para tu hogar.</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://twitter.com/delizulia"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://facebook.com/DELIZULIA"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://instagram.com/delizulia"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://linkedin.com/company/delizulia"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square" href="https://youtube.com/delizulia"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 pl-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Horarios</h4>
+                <div>
+                    <h6 class="text-white text-uppercase">Oficina Administrativa</h6>
+                    <p>Lunes a Viernes: 8:00 AM - 5:00 PM</p>
+                    <p>Sábados: 8:00 AM - 12:00 PM</p>
+                </div>
+                <div class="mt-3">
+                    <h6 class="text-white text-uppercase">Punto de Venta</h6>
+                    <p>Lunes a Sábado: 7:00 AM - 6:00 PM</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 pl-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Enlaces Rápidos</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="#inicio"><i class="fa fa-angle-right mr-2"></i>Inicio</a>
+                    <a class="text-white mb-2" href="#acerca"><i class="fa fa-angle-right mr-2"></i>Acerca de Nosotros</a>
+                    <a class="text-white mb-2" href="#productos"><i class="fa fa-angle-right mr-2"></i>Productos</a>
+                    <a class="text-white mb-2" href="#valores"><i class="fa fa-angle-right mr-2"></i>Valores</a>
+                    <a class="text-white" href="#contacto"><i class="fa fa-angle-right mr-2"></i>Contacto</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 pl-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Contacto</h4>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Calle 66, Av. 24 y 25, Santa Maria</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+58 412-0000000</p>
+                <p><i class="fab fa-whatsapp mr-2"></i>+58 412-0000000</p>
+                <p><i class="fa fa-envelope mr-2"></i>gerencia@delizulia.com</p>
+            </div>
+        </div>
+        <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+            <p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold" href="#">2025 Delizulia</a>. Todos los derechos reservados.</p>
+            <p class="m-0 text-white">Diseñado por <a class="font-weight-bold" href="https://nufeca.vercel.app/">NUFECA</a></p>
+        </div>
+    </div>         
+
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
